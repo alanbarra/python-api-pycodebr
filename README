@@ -1,0 +1,33 @@
+-------------------------------
+COMANDOS PYTHON API/DJANGO-REST
+-------------------------------
+- https://pycodebr.com.br/materiais-pylive
+
+py_live14 - https://pickle-reading-bd9.notion.site/py_live-014-a7bc0351f3274040913f97cbb8c4ad0c
+py_live15 - https://pickle-reading-bd9.notion.site/py_live-015-170866d71f3e4f9b90ddae001e20c312
+
+- https://www.youtube.com/watch?v=rJOTprYn3e4&t=4740s
+
+* Criar venv e instalar Django e DRF
+- python -m venv venv
+- venv/Scripts/activate
+- pip install django
+- pip install djangorestframework
+
+* Criar e inicializar projeto Django
+- django-admin startproject core .
+- pip install mysqlclient  (criar squema no mysql)
+- python manage.py migrate
+- python manage.py createsuperuser
+
+* Rodar o sistema e acessar o admin
+- python manage.py runserver
+
+* Filtros RQL em API
+- pip install django-rql   (https://django-rql.readthedocs.io/en/latest/getting_started/)
+
+* Autenticação por JWT
+- pip install djangorestframework-simplejwt
+
+
+- pip freeze > requirements.txt
